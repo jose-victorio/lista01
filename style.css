@@ -1,0 +1,73 @@
+*{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    
+}   
+body{
+    background-color: rgba(0, 0, 0, 0.407);
+    display: flex;
+
+    
+    
+    justify-content: center;
+    height: 100vh;
+}
+.conteudo{
+    background-image: linear-gradient(to bottom, blue, white);
+
+    height: 580px;
+    width: 500px;
+    
+    margin: 0;
+    margin-top: 25px;
+    
+    display: flex;
+    gap:25px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+    padding: 0%;
+    
+    border-radius: 8px;
+    box-shadow: 3px 3px 3px 1px;
+    
+}
+
+.caixa{
+    
+    display: flex;
+    flex-direction:column;
+    
+    align-items: center;
+    margin: 0;
+}
+
+.foto{
+    padding-top: 0px;
+    padding-bottom: 0%;
+   
+}
+
+h1{
+    padding-top: 0%;
+    margin-bottom:0%;
+    
+
+}
+
+#input{
+    width: 350px;
+    height: 30px;
+    border-radius: 3px;
+}
+
+#botao-adicionar{
+    height: 50px;
+    width: 100px;
+    border-radius: 3px;
+    
+
+}
+
