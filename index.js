@@ -7,8 +7,15 @@ botao.addEventListener("click", (evento) => {
     evento.preventDefault()
         if(input.value === ""){
             alert("Nada escrito.")
+           
             target
+
+           
         }
+
+    
+    
+
             
         const itemDaLista = document.createElement("li")
         const containerDaLista = document.createElement("div")
@@ -28,6 +35,10 @@ botao.addEventListener("click", (evento) => {
 
         
 })
+
+function limparInput () {
+    let inputVazio = document.getElementById("input")
+    inputVazio.value = ""}
 
 
 
