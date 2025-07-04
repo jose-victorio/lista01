@@ -70,4 +70,32 @@ h1{
     
 
 }
+h2{
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.lista-item-container{
+    display: flex;
+    
+    
+
+}
+
+
+
+hr{
+    width: 300px;
+}
+
+
+
+.rolamento{
+    overflow: hidden;
+    height: 150px;
+    max-height:50px ;
+    overflow-y: scroll;
+    
+    display: flex;
+}
 
